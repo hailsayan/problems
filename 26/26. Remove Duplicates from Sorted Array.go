@@ -1,6 +1,6 @@
-// package main
+package main
 
-// import "fmt"
+import "fmt"
 
 func removeDuplicates(nums []int) int {
 	if len(nums) == 0 {
@@ -19,9 +19,9 @@ func removeDuplicates(nums []int) int {
 	return j
 }
 
-// func main() {
-//     nums := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
-//     k := removeDuplicates(nums)
-//     fmt.Println(k)
-//     fmt.Println(nums[:k])
-// }
+func main() {
+	nums := []int{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
+	k := removeDuplicates(nums)
+	fmt.Println(k)
+	fmt.Println(nums[:k])
+}

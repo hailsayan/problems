@@ -1,6 +1,6 @@
-// package main
+package main
 
-// import "fmt"
+import "fmt"
 
 func isPalindrome(x int) bool {
 	if x < 0 || (x%10 == 0 && x != 0) {
@@ -17,8 +17,8 @@ func isPalindrome(x int) bool {
 	return x == reversedHalf || x == reversedHalf/10
 }
 
-// func main() {
-// 	fmt.Println(isPalindrome(121))
-// 	fmt.Println(isPalindrome(-121))
-// 	fmt.Println(isPalindrome(10))
-// }
+func main() {
+	fmt.Println(isPalindrome(121))
+	fmt.Println(isPalindrome(-121))
+	fmt.Println(isPalindrome(10))
+}
